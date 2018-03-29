@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="base" template="/WEB-INF/layout/base.jsp">
+        <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="title" value="" />
+    </definition>
+    <definition name="index" extends="base">
+        <put-attribute name="title" value="Grammabase" />
+        <put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
+    </definition>
+    <definition name="login" extends="base">
+        <put-attribute name="title" value="Grammabase" />
+        <put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+    </definition>
+    <definition name="add-grammar" extends="base">
+        <put-attribute name="title" value="Grammabase" />
+        <put-attribute name="body" value="/WEB-INF/jsp/add-grammar.jsp" />
+    </definition>
+    <definition name="grammar" extends="base">
+        <put-attribute name="title" value="Grammabase" />
+        <put-attribute name="body" value="/WEB-INF/jsp/grammar.jsp" />
+    </definition>
+    <definition name="update-grammar" extends="base">
+        <put-attribute name="title" value="Grammabase" />
+        <put-attribute name="body" value="/WEB-INF/jsp/update-grammar.jsp" />
+    </definition>
+    <definition name="update-rule" extends="base">
+        <put-attribute name="title" value="Grammabase" />
+        <put-attribute name="body" value="/WEB-INF/jsp/update-rule.jsp" />
+    </definition>
+    <definition name="error" extends="base">
+        <put-attribute name="title" value="Error" />
+        <put-attribute name="body" value="/WEB-INF/jsp/error.jsp"/>
+    </definition>
+</tiles-definitions>

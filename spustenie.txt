@@ -1,0 +1,12 @@
+Program sa spúša pomocou vıvojového prostredia v java jazyku s podporou maven pluginu alebo jednoducho cez príkazovı riadok, je však potrebné ma nainštalovanı maven. Po rozbalení preèinku je potrebné prepnú sa do Grammabase prieèinku a program spustíme jednoduchım príkazom:
+
+mvn jetty:stop jetty:run
+
+takto stiahneme všetky potrebné kninice a spustíme jetty server.
+
+K aplikácií je moné pristúpi pomocou webového prehliadaèa zadaním adresy:
+
+http://localhost:8080/Grammabase
+
+kde je potrebné zada názov databázy. Po jej vytvorení je moné pracova s programom.
+
